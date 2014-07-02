@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MapGenerator", "MapGenerator\MapGenerator.fsproj", "{AECC4AF9-CB12-4745-AFF4-6E1AB71AB9B2}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Console", "Test\Console.fsproj", "{1E750589-FBCD-4936-A99A-6CD29F28D6D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B668AB0A-81B6-41EB-B898-9C3FB46391EC}"
+	ProjectSection(SolutionItems) = preProject
+		Performance1.psess = Performance1.psess
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{CAE799DA-1C0C-4B58-9DB0-EE3D7123AADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AECC4AF9-CB12-4745-AFF4-6E1AB71AB9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECC4AF9-CB12-4745-AFF4-6E1AB71AB9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECC4AF9-CB12-4745-AFF4-6E1AB71AB9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECC4AF9-CB12-4745-AFF4-6E1AB71AB9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E750589-FBCD-4936-A99A-6CD29F28D6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E750589-FBCD-4936-A99A-6CD29F28D6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E750589-FBCD-4936-A99A-6CD29F28D6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E750589-FBCD-4936-A99A-6CD29F28D6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE799DA-1C0C-4B58-9DB0-EE3D7123AADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE799DA-1C0C-4B58-9DB0-EE3D7123AADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE799DA-1C0C-4B58-9DB0-EE3D7123AADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE799DA-1C0C-4B58-9DB0-EE3D7123AADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
